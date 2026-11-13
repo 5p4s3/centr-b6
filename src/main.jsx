@@ -23,7 +23,7 @@ import './styles.css';
 
 const phone1 = '+7 (910) 647-67-97';
 const phone2 = '+7 (920) 162-21-21';
-const email = 'centr-b@bk.ru';
+const email = 'centr-b6@bk.ru';
 
 const courses = [
   {slug:'bpla',title:'Противодействие БПЛА',tag:'Специализированная подготовка',desc:'Теоретическая и практическая подготовка сотрудников охранных структур по противодействию беспилотным летательным аппаратам и защите объектов.',hours:'36 часов',price:'3 000 ₽',image:'https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=1200&q=85'},
@@ -419,7 +419,7 @@ function Documents() {
       <section className="section">
         <div className="container doc-list">
           {docs.map((d,i) => (
-            <a key={d} href="https://centr-b.com/svedeniya-ob-obrazovatelnoy-deyatelnosti/" target="_blank" rel="noreferrer" className="doc-row">
+            <a key={d} href="https://centr-b6.com/svedeniya-ob-obrazovatelnoy-deyatelnosti/" target="_blank" rel="noreferrer" className="doc-row">
               <span className="doc-icon"><FileText/></span>
               <span><small>РАЗДЕЛ {String(i+1).padStart(2,'0')}</small><b>{d}</b></span>
               <ArrowUpRight/>
@@ -517,7 +517,7 @@ function NotFound() {
 
 function App() {
   return (
-    <BrowserRouter basename="/centr-b">
+    <BrowserRouter basename="/centr-b6">
       <Header/>
       <main>
         <Routes>
