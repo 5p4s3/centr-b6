@@ -1,6 +1,8 @@
 
+import React, { useState } from 'react';
+import { createRoot } from 'react-dom/client';
 import {
-  HashRouter,
+  BrowserRouter,
   Routes,
   Route,
   Link,
@@ -515,7 +517,7 @@ function NotFound() {
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename="/centr-b">
       <Header/>
       <main>
         <Routes>
@@ -532,7 +534,7 @@ function App() {
         </Routes>
       </main>
       <Footer/>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
